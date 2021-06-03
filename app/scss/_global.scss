@@ -4,6 +4,23 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
 body {
-
+    font-size: 15px;   
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
