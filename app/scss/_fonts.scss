@@ -60,14 +60,17 @@
 .lnr-chevron-right:before {
 	content: "\e876";
 }
+.lnr-cart:before {
+	content: "\e82e";
+}
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?bgwpri');
-  src:  url('fonts/icomoon.eot?bgwpri#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?bgwpri') format('truetype'),
-    url('fonts/icomoon.woff?bgwpri') format('woff'),
-    url('fonts/icomoon.svg?bgwpri#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?bgwpri');
+  src:  url('../fonts/icomoon.eot?bgwpri#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?bgwpri') format('truetype'),
+    url('../fonts/icomoon.woff?bgwpri') format('woff'),
+    url('../fonts/icomoon.svg?bgwpri#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
