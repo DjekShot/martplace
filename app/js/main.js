@@ -61,6 +61,14 @@ $(function () {
         nextArrow: '<button type="button" class="slick-next slick__arows lnr-chevron-right"></button>',
     });
 
+    $('.followersFeed__inner').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        // centerMode: true,
+        prevArrow: '<button type="button" class="slick-prev slick__arows lnr-chevron-left"></button>',
+        nextArrow: '<button type="button" class="slick-next slick__arows lnr-chevron-right"></button>',
+    });
+
     var mixer = mixitup('.releaseProducts__container');
 
 
