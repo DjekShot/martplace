@@ -1233,3 +1233,188 @@
     }
 }
 /* End support */
+
+/* Start footer */
+
+.footer {
+    &__top {
+        padding: 100px 0px 110px;
+        background-color: #262b30;
+        &-inner {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__bottom {
+        background-color: #192027;
+        padding: 37px 0px;
+        text-align: center;
+        min-height: 94px;
+        &-copy {
+            color: #999999;
+            font-size: 16px;
+            span {
+                color: #fff;
+            }
+        }
+    }
+}
+.footer__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    &-martplace {
+        max-width: 264px;
+        width: 100%;
+    }
+    &-list {
+        max-width: 150px;
+        width: 100%;
+    }
+    &-social {
+        max-width: 360px;
+        width: 100%;
+    }
+}
+.footer__item {
+    width: 100%;
+    color: #ababab;
+    &-text {
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    &-email {
+        margin-top: 20px;
+        padding-left: 28px;
+        position: relative;
+        margin-bottom: 18px;
+        &::before {
+            content: '\e818';
+            font-family: 'Linearicons-Free';
+            position: absolute;
+            left: 0;
+        }
+    }
+    &-map {
+        padding-left: 28px;
+        position: relative;
+        &::before {
+            content: '\e833';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            font-family: 'Linearicons-Free';
+        }
+    }
+    &-list {
+        li+li {
+            margin-top: 14px;
+        }
+        li {
+            display: block;
+            a {
+                color: #ababab;
+            }
+        }
+    }
+    &-form {
+        form {
+            position: relative;
+            input {
+                border: none;
+                padding: 17px 115px 16px 28px;
+                border-radius: 27px;
+                color: $blue;
+                height: 50px;
+                font-size: 15px;
+                outline: none;
+                width: 100%;
+                margin-bottom: 48px;
+                &::placeholder {
+                    color: #ababab;
+                }
+            }
+            button {
+                color: #fff;
+                background-color: $blue;
+                border: none;
+                height: 50px;
+                padding: 17px 30px;
+                border-radius: 27px;
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                right: -1px;
+            }
+        }
+    }
+}
+.foter__item-social-list {
+    display: flex;
+    li {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background-color: #395799;
+        position: relative;
+        a {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        } 
+    }
+    li + li {
+        margin-left: 13px;
+    }
+}
+.item-newsletter__text {
+    margin-bottom: 30px;
+}
+.item {
+    &-martplace {
+        max-width: 264px;
+        a {
+            color: #ababab;
+            padding-left: 28px;
+            position: relative;
+            &::before {
+                content: '\e830';
+                font-family: 'Linearicons-Free';
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+    &-nav {
+        max-width: 150px;
+    }
+    &-newsletter {
+        max-width: 360px;
+    }
+}
+.foter__item-social-list {
+    .item {
+        &-twitter {
+            background-color: #19b2f5;
+        }
+        &-google {
+            background-color: #f05b44;
+        }
+        &-pinterest {
+            background-color: #9c0c1c;
+        }   
+        &-linkedin {
+            background-color: #0da6be;
+        }
+        &-dribbble {
+            background-color: #ea4c89;
+        }
+    }
+}
+
+/* End footer */
