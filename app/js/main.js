@@ -50,10 +50,26 @@ $(function () {
         starWidth: "17px",
         readOnly: true
     });
+    $(".item__content-rateBasket__rateyo").rateYo({
+        rating: 4.5,
+        starWidth: "17px",
+        readOnly: true
+    });
     $(".releaseProducts__item-content-bottom-star").rateYo({
         rating: 4.5,
         starWidth: "15px",
         readOnly: true
+    });
+
+    
+    $(".js-range-slider").ionRangeSlider({
+        type: "double",
+        min: 0,
+        max: 350,
+        from: 30,
+        to: 300,
+        grid: false,
+        prefix: "$",
     });
 
     $('.sliderProducts__inner').slick({
@@ -70,6 +86,5 @@ $(function () {
     });
 
     var mixer = mixitup('.releaseProducts__container');
-
 
 });
