@@ -85,6 +85,23 @@ $(function () {
         nextArrow: '<button type="button" class="slick-next slick__arows lnr-chevron-right"></button>',
     });
 
+    $('.categories-page__list').on('click', function(){
+        $('.categories-page__list').addClass('active');
+        $('.categories-page__grid').removeClass('active');
+        $('.breadcrumb__list-item.list').addClass('active');
+        $('.breadcrumb__list-item.grid').removeClass('active');
+        $('.categories-page__box-list').addClass('active');
+        $('.categories-page__box.grid').removeClass('active');
+    });
+    $('.categories-page__grid').on('click', function(){
+        $('.categories-page__grid').addClass('active');
+        $('.categories-page__list').removeClass('active');
+        $('.breadcrumb__list-item.grid').addClass('active');
+        $('.breadcrumb__list-item.list').removeClass('active');
+        $('.categories-page__box.grid').addClass('active');
+        $('.categories-page__box-list').removeClass('active');
+    });
+
     var mixer = mixitup('.releaseProducts__container');
 
 });

@@ -57,6 +57,12 @@ p {
           color: #bfcad7;
           display: flex;
           justify-content: center;
+          &-item {
+              display: none;
+          }
+          &-item.active {
+              display: block;
+          }
           li + li {
               padding-left: 24px;
               position: relative;
